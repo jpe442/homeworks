@@ -10,6 +10,15 @@ Gray: #ccc
 Light Gray: #eee
 Red: #f00*/
 
+/*Borders
+
+Thickness: 1px
+Layout
+
+Whitespace: 5px, 10px, 20px
+Total Size Container: 900px
+Total Size Sidebar: 240px
+Total Size Content: 660px*/
 body {
   /* Write your css here... */
   background-color: #eee;
@@ -20,13 +29,21 @@ body {
 }
 
 .header {
+  background-color: #f00;
+  border-bottom: thin solid #ccc;
+  color: #fff;
 
 }
 
 .header a {
+  display: block;
+  padding: 10px;
 
 }
 
 .header-nav {
-
+  width: 900px;
+  margin: auto;
+  border-right: thin solid #ccc;
+  border-left: thin solid #ccc;
 }
