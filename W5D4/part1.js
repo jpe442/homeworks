@@ -81,16 +81,28 @@ function isSubstring(string, substring) {
 
 // Return array of integers that are either divisible by 5 or 3 but not both.
 
-function fizzBuzz(array) {
-  const fizzBuzzArr = []
+// function fizzBuzz(array) {
+//   const fizzBuzzArr = []
 
+//   array.forEach(el => {
+//     if ((el % 3 === 0)^(el % 5 === 0)) {
+//       fizzBuzzArr.push(el);
+//     }
+//   });
+
+//   return fizzBuzzArr;
+// }
+
+function fizzBuzz(array) {
+  let fizzed = [];
+  
   array.forEach(el => {
     if ((el % 3 === 0)^(el % 5 === 0)) {
-      fizzBuzzArr.push(el);
+      fizzed.push(el);
     }
-  });
-
-  return fizzBuzzArr;
+  }
+);
+  return fizzed
 }
 
 // Return boolean re: n is prime?
@@ -125,4 +137,8 @@ function sumOfNPrimes(n) {
 
 
 
+fizzBuzz([1,2,3])
 
+const words = "Here is a string".split(" ")
+const sentence = words.join (" ")
+sumOfNPrimes(5)

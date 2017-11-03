@@ -1,5 +1,5 @@
 function fizzBuzz(array) {
-  const fizzBuzzArr = []
+  let fizzBuzzArr = []
 
   array.forEach(el => {
     if ((el % 3 === 0) ^ (el % 5 === 0)) {
