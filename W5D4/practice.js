@@ -11,3 +11,9 @@ function uniq(array) {
 }
 
 console.log(uniq([1,1,2,3,4]));
+
+function twoSum(array) {
+  const pairs = [];
+  
+}
+

@@ -14,3 +14,4 @@ function hammerTime(time) {
     alert(`${time} is hammertime!`);
   }, 2000)
 };
+
