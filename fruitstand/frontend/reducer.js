@@ -1,5 +1,5 @@
 // import ACTION types once you have them defined
-import {ADD_FRUIT, CLEAR} from "./actions"
+import { ADD_FRUIT, CLEAR } from "./actions]"
 
 const _defaultState = {
   fruits: []
