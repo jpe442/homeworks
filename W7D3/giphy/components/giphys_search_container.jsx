@@ -9,3 +9,5 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => {
   return { fetchSearchGiphys: (searchTerm) => dispatch(fetchSearchGiphys(searchTerm))}
 };
+
+export default connect(mapStateToProps, mapDispatchToProps)(GiphysSearch);

@@ -12177,45 +12177,12 @@ module.exports = __webpack_require__(81);
 
 
 /***/ }),
-/* 110 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _react = __webpack_require__(18);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _giphys_index_item = __webpack_require__(111);
-
-var _giphys_index_item2 = _interopRequireDefault(_giphys_index_item);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/***/ }),
-/* 111 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/***/ }),
+/* 110 */,
+/* 111 */,
 /* 112 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-var _react = __webpack_require__(18);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _giphys_index = __webpack_require__(110);
-
-var _giphys_index2 = _interopRequireDefault(_giphys_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+throw new Error("Module build failed: SyntaxError: 'this' is not allowed before super()\n\n\u001b[0m \u001b[90m 5 | \u001b[39m\u001b[36mclass\u001b[39m \u001b[33mGiphysSearch\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\n \u001b[90m 6 | \u001b[39m  constructor(props) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 7 | \u001b[39m    \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate \u001b[33m=\u001b[39m props\u001b[33m.\u001b[39msearchTerm\n \u001b[90m   | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 8 | \u001b[39m  }\n \u001b[90m 9 | \u001b[39m}\u001b[0m\n");
 
 /***/ }),
 /* 113 */
@@ -12223,6 +12190,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 "use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _reactRedux = __webpack_require__(72);
 
@@ -12245,6 +12216,8 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
       return dispatch((0, _giphy_actions.fetchSearchGiphys)(searchTerm));
     } };
 };
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_giphys_search2.default);
 
 /***/ }),
 /* 114 */
